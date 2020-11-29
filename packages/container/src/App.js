@@ -45,7 +45,8 @@ export default () => {
                 {!isSignedIn && <Redirect to="/" />}
                 <DashboardLazy />
               </Route>
-              <Route path="/" component={MarketingLazy} />
+              <Route path="/marketing" component={MarketingLazy} />
+              <Route path="/" component={DashboardLazy} />
             </Switch>
           </Suspense>
         </div>

@@ -18,6 +18,7 @@ const useStyles = makeStyles((theme) => ({
     },
   },
   appBar: {
+    backgroundColor: "blue",
     borderBottom: `1px solid ${theme.palette.divider}`,
   },
   toolbar: {
